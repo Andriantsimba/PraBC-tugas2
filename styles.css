@@ -1,0 +1,66 @@
+.main{
+    font-size: 11pt;
+    width: 800px;
+    border: solid 1px grey;
+}
+.header{
+    height: 150px;
+    background-color: rgb(85, 81, 109);
+    color: white;
+    padding: 10px 0 10px 0;
+    justify-items: center;
+    
+}
+.resume{
+    height: 10px;
+    background-color: white;
+
+}
+.header1{
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.image{
+    border: 13px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url("Sahoby.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px;
+        background-position-y: 1px;
+        margin-left: 40px;
+        margin-top: 20pt;
+}
+
+ table{
+     justify-content: center;
+ }
+ .profile{
+     font-size: 50px;
+ }
+ .body{
+     padding-top: 60px;
+     text-align: right;
+     padding-right: 10px;
+     padding-left: 20px;
+ }
+ .work{
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+     background-color: rgb(173, 177, 181);
+ }
+ 
+ .divInternal{
+     display: flex;
+ }
+ .education{
+     margin: 20px 10px 10px 10px;
+     padding: 10px ;
+    background-color: rgb(173, 177, 181);
+ }
+ 
+ 

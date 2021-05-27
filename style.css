@@ -1,0 +1,56 @@
+.div2{
+    background-color: aqua;
+    color: red;
+    padding: 100px;
+    margin: 20px 50px 100px 200px;
+    border: solid 1px red;
+}
+div[my-style="my-style"]{
+    color: pink;
+}
+div{
+    /* background-color: cyan; */
+}
+.round{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.image{
+    height: 200px;
+    border: 1px solid;
+    background-image: url('https://img-19.ccm2.net/8vUCl8TXZfwTt7zAOkBkuDRHiT8=/1240x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: -100px;
+}
+.divnew{
+    font-size: 30px;
+    background: unset !important;
+    display: flex;
+}
+.logo{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.divnew li{
+    list-style: none;
+    background-color: lightgray;
+    padding: 5px 20px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+.divnew li:hover{
+   transform: scale(1.5);
+   transition: transform 500ms;
+}
+.divnew ul{
+    display: flex;
+}
+/* 4 value berlaku for ats, kanan, bawah, kiri 
+     background-size: cover; 
+      background-size: contain; 
+*/
